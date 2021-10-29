@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,900&display=swap');
+
+:root{
+    --orange: #ffa500;
+}
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    /* transition: all .2s linear; */
+}
+*::selection{
+    background: var(--orange);
+    color: #fff;
+}
+html{
+    font-size: 62.5%;
+    overflow-x:hidden ;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+
+}
+/* .btn{
+    display: inline-block;
+    margin-top: 1rem;
+    background: var(--orange);
+    color: #fff;
+    padding: 1rem 3rem;
+    border: .5rem solid var(--orange);
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+.btn:hover{
+    background-color:rgba(255,165 , 0, .2);
+    color: #ffa500;
+} */
+.login-bg-container{
+    background: linear-gradient(rgba(70, 83, 107,0.8),rgba(70, 83, 107,0.8)),url("https://www.incimages.com/uploaded_files/image/1920x1080/getty_603992138_315591.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 75px;
+}
+
+.logo img{
+    /* padding-top: 100px; */
+    width: 100px;
+}
+.logo h6{
+    text-align: center;
+     color: white;
+     font-weight: 500;
+     font-size: 30px;
+}
+.logo .tm{
+    font-size: 10px;
+    vertical-align: super;
+
+}
+.logo .para{
+    color: white;
+    font-size: 15px;
+}
+/* .login-bg-container p{
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+} */
+.login-bg-container .paragrap{
+    /* width: 50%; */
+    line-height: 50px;
+    font-weight: 100;
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+}
+.login-bg-container .icon-left{
+    font-size: 40px;
+    color: white;
+    text-align: left;
+}
+.login-bg-container .icon-right{
+    text-align: right;
+    font-size: 40px;
+    color: white;
+}
+/* login page css*/
+.login-page{
+    background-color: white;
+    margin: 80px; 
+    font-size: 24px;
+}
+.click-here{
+    color: #ab8545;
+    text-decoration: none;
+
+}
+.login-btn{
+    background-color: #ab8545;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    font-weight: 400;
+}
+.input-container{
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.error-msg{
+    display: none;
+}
+table{
+    font-size: 32px;
+    border:1px  solid black
+}
